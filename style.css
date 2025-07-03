@@ -1,0 +1,45 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #3f87a6, #ebf8e1);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #000;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* Features Cards */
+.features .card {
+  transition: transform 0.3s ease;
+}
+
+.features .card:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: #343a40;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+.App Image {
+  height: 30px;
+  width: 50px;
+}
+.tech-image {
+  height: 50px;
+  width: 50px;
+}
